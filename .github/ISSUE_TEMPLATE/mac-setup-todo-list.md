@@ -42,3 +42,12 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `brew install gh`
   - run `gh auth login`
     - follow the in browser GitHub authorization
+    - choose `SSH` as preferred protocol
+    - choose `Y` when wizzed offers automatic SSH keys generation
+    - to make life easier and every clone/push/pull faster to not setup private SSH key passphrase, just leave it empty
+- [ ] GIT aliases
+  - https://git-scm.com/book/ms/v2/Git-Basics-Git-Aliases
+  - run `git config --global alias.ch checkout`
+  - run `git config --global alias.br branch`
+  - run `git config --global alias.ci commit`
+  - run `git config --global alias.st status`
