@@ -51,3 +51,24 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `git config --global alias.br branch`
   - run `git config --global alias.ci commit`
   - run `git config --global alias.st status`
+- [ ] GPG
+  - to fix while commiting in `git`
+    - `error: gpg failed to sign the data`
+    - `fatal: failed to write commit object`
+  - check for details
+    - https://jam.dev/blog/articles/error-gpg-failed-to-sign-the-data/
+  - run
+    - `brew uninstall gpg`
+    - `brew install gpg2`
+    - `brew install pinentry-mac`
+    - `gpg --full-generate-key`
+    - `gpg --list-keys`
+      - copy key's fingerprint (key ID) to the clipboard
+    - `git config --global user.signingkey <your GPG key fingerprint/id>`
+    - `git config --global gpg.program /usr/local/bin/gpg`
+    - `git config --global commit.gpgsign true`
+    - `gpg --armor --export <your GPG key fingerprint/id>`
+      - paste it here
+        - https://github.com/settings/gpg/new
+- [ ] GPG Suite
+  - https://gpgtools.org   
