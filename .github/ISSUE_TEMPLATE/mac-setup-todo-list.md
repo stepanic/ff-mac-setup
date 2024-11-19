@@ -25,5 +25,6 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
     - set `Working Directory -> Directory -> /Users/<YOUR_USERNAME>/git`
 - [ ] dotfiles by `mathiasbynens`
   - https://github.com/mathiasbynens/dotfiles
+  - it will make terminal nicer and more useful
   - run `mkdir ~/dotfiles && ch ~/dotfiles`
   - run `git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh`
