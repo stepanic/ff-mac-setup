@@ -17,3 +17,5 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - [find latest and stable Xcode here](https://developer.apple.com/download/all/?q=xcode) 
 - [ ] GIT
   - run `git` in terminal and follow the automatic installation of `Xcode Command Line Tools`
+- [ ] iTerm2
+  - https://iterm2.com/downloads.html
