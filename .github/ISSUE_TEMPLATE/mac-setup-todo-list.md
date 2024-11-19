@@ -28,3 +28,5 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - it will make terminal nicer and more useful
   - run `mkdir ~/dotfiles && ch ~/dotfiles`
   - run `git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh`
+- [ ] little sugar to the Bash Aliases
+  - run `echo 'alias ll="ls -la"' >> ~/.aliases` 
