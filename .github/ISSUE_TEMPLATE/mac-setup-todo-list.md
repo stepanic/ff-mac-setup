@@ -51,6 +51,11 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `git config --global alias.br branch`
   - run `git config --global alias.ci commit`
   - run `git config --global alias.st status`
+- [ ] GIT global config
+  - run `git config pull.rebase false`
+    - on `git pull` default behaviours should be `merge`
+  - run `git config --global user.name "<YOUR_FIRST_NAME> <YOUR_LAST_NAME>"`
+  - run `git config --global user.email "<YOUR_EMAIL>"`
 - [ ] GPG
   - to fix while commiting in `git`
     - `error: gpg failed to sign the data`
@@ -62,6 +67,11 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
     - `brew install gpg2`
     - `brew install pinentry-mac`
     - `gpg --full-generate-key`
+      - insert your name and email
+        - should be the same as set previously in (otherwise GitHub would not show commits Verified)
+          - `git config --global user.name "<YOUR_FIRST_NAME> <YOUR_LAST_NAME>"`
+          - and
+          - `git config --global user.email "<YOUR_EMAIL>"`  
     - `gpg --list-keys`
       - copy key's fingerprint (key ID) to the clipboard
     - `git config --global user.signingkey <your GPG key fingerprint/id>`
@@ -70,5 +80,8 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
     - `gpg --armor --export <your GPG key fingerprint/id>`
       - paste it here
         - https://github.com/settings/gpg/new
+    - `git config --global user.signingkey <your GPG key fingerprint/id>`
 - [ ] GPG Suite
-  - https://gpgtools.org   
+  - https://gpgtools.org
+  - output of `gpg --armor --export <your GPG key fingerprint/id>` paste to GPG Keychain and upload public key to key server
+    
