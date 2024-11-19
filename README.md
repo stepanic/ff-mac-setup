@@ -5,4 +5,9 @@ How to setup FRESH from store Mac (Macbook, Mac mini, etc.) with best practices 
 ## Installation
 
 - 1. [ ] Xcode
-- 2. [x] GIT 
+- 2. [x] GIT
+ 
+<ul>
+    <li><input type="checkbox"> GIT</li>
+    <li><input type="checkbox"> Xcode</li>
+</ul>
