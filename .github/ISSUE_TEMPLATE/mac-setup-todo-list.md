@@ -84,4 +84,16 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
 - [ ] GPG Suite
   - https://gpgtools.org
   - output of `gpg --armor --export <your GPG key fingerprint/id>` paste to GPG Keychain and upload public key to key server
-    
+- [ ] Visual Studio Code
+  - https://code.visualstudio.com/Download#
+  - download ZIP for Apple silicon or Intel chip depending on your CPU
+  - `Cmd + Shift + P`
+    - type `PATH`
+      - choose `Install command 'code' in PATH`      
+- [ ] Flutter CLI
+  - follow all here
+    - https://docs.flutter.dev/get-started/install/macos/mobile-ios      
+  - if you have Apple Silicon, for Intel that is N/A
+      - install Rosetta
+        - run `sudo softwareupdate --install-rosetta --agree-to-license`
+  - follow `Use VS Code to install` or `Download and install`
