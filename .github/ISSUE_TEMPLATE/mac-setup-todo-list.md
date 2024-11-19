@@ -11,7 +11,7 @@ assignees: ''
 
 How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practices for FlutterFlow development 
 
-## Installation
+## Installation & Configuration
 
 - [ ] Xcode
   - [find latest and stable Xcode here](https://developer.apple.com/download/all/?q=xcode) 
@@ -19,3 +19,7 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `git` in terminal and follow the automatic installation of `Xcode Command Line Tools`
 - [ ] iTerm2
   - https://iterm2.com/downloads.html
+  - run `mkdir git`
+  - open `Settings -> Profiles`
+    - set `Command -> Custom Shell -> /bin/bash`
+    - set `Working Directory -> Directory -> /Users/<YOUR_USERNAME>/git`
