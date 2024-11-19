@@ -97,3 +97,13 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
       - install Rosetta
         - run `sudo softwareupdate --install-rosetta --agree-to-license`
   - follow `Use VS Code to install` or `Download and install`
+  - install Flutter SDK in `~/development`
+  - add `flutter` to be available in `$PATH`
+    - run `nano ~/.bash_profile`
+    - in the last line add
+      - `export PATH=$HOME/development/flutter/bin:$PATH`
+    - save & exit
+    - open another terminal and `flutter doctor` should work
+  - run `flutter doctor` and install missing tools
+- [ ] Android Studio
+  -  
