@@ -40,3 +40,5 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
 - [ ] GitHub CLI
   - https://cli.github.com
   - run `brew install gh`
+  - run `gh auth login`
+    - follow the in browser GitHub authorization
