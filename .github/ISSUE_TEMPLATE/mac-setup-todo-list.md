@@ -30,8 +30,13 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh`
 - [ ] little sugar to the Bash Aliases
   - run `echo 'alias ll="ls -la"' >> ~/.aliases`
-- [ ] GitHub CLI
-  - https://cli.github.com
 - [ ] Homebrew (Brew)
   - https://brew.sh
   - run `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+  - run
+    - `echo >> /Users/<YOUR_USERNAME>/.bash_profile`
+    - `echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<YOUR_USERNAME>/.bash_profile`
+    - `eval "$(/opt/homebrew/bin/brew shellenv)"`
+- [ ] GitHub CLI
+  - https://cli.github.com
+  - run `brew install gh`
