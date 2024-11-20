@@ -149,3 +149,14 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - add `cursor` CLI command with `Cmd + Shift + P`
 - [ ] Figma
   - https://www.figma.com/downloads/
+     
+## Optional
+
+- [ ] `htop`
+  - run `brew install htop`
+- [ ] `ffmpeg`
+  - run `brew install ffmpeg`
+- [ ] mmhmm - recording app
+  - https://www.mmhmm.app/
+- [ ] System Color Picker
+  - https://apps.apple.com/us/app/system-color-picker/id1545870783?mt=12 
