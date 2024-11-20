@@ -119,6 +119,9 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   -  open `Settings -> Android SDK -> SDK Tools` install `Android SDK Command-line Tools (latest)`
   -  run `flutter doctor --android-licenses`
     - accept all
+  -  make `adb` available in terminal
+    - run `echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.bash_profile`
+    - run `echo 'export PATH="$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"' >> ~/.bash_profile`
 - [ ] CocoaPods
   - https://guides.cocoapods.org/using/getting-started.html#installation
     - install the latest Ruby with Brew
