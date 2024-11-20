@@ -144,3 +144,5 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - https://www.cursor.com
   - install `Flutter` and `FlutterFlow` extensions
   - add `cursor` CLI command with `Cmd + Shift + P`
+- [ ] Figma
+  - https://www.figma.com/downloads/
