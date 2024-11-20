@@ -139,4 +139,8 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
     - `Cmd + Left` for Window Left Half
     - `Cmd + Right` for Window Right Half
     - `Cmd + M` Maximize Window
-    - and more :))  
+    - and more :))
+- [ ] Cursor
+  - https://www.cursor.com
+  - install `Flutter` and `FlutterFlow` extensions
+  - add `cursor` CLI command with `Cmd + Shift + P`
