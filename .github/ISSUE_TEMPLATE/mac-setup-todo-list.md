@@ -120,4 +120,18 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   -  run `flutter doctor --android-licenses`
     - accept all
 - [ ] CocoaPods
-  - https://guides.cocoapods.org/using/getting-started.html#installation 
+  - https://guides.cocoapods.org/using/getting-started.html#installation
+    - install the latest Ruby with Brew
+      - run `brew install ruby`
+      - add to PATH `ruby` and gems
+        - run `echo 'export PATH="/opt/homebrew/opt/ruby/bin:/opt/homebrew/lib/ruby/gems/3.3.0/bin:$PATH"' >> ~/.bash_profile`
+    - install CocoaPods
+      - run `gem install cocoapods`
+      - that will make `pod` CLI command available in terminal
+- [ ] Chrome
+  - https://www.google.com/chrome/
+- [ ] FlutterFlow
+  - https://www.flutterflow.io/desktop
+    - https://storage.googleapis.com/flutterflow-downloads/macos/flutterflow-latest-macos.dmg
+- [ ] Raycast
+  - https://www.raycast.com    
