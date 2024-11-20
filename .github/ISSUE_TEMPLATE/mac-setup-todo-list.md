@@ -134,4 +134,9 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - https://www.flutterflow.io/desktop
     - https://storage.googleapis.com/flutterflow-downloads/macos/flutterflow-latest-macos.dmg
 - [ ] Raycast
-  - https://www.raycast.com    
+  - https://www.raycast.com
+  - Settings
+    - `Cmd + Left` for Window Left Half
+    - `Cmd + Right` for Window Right Half
+    - `Cmd + M` Maximize Window
+    - and more :))  
