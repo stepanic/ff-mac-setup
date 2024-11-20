@@ -14,7 +14,15 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
 ## Installation & Configuration
 
 - [ ] Xcode
-  - [find latest and stable Xcode here](https://developer.apple.com/download/all/?q=xcode) 
+  - [find latest and stable Xcode here](https://developer.apple.com/download/all/?q=xcode)
+  - after installation
+    - install tools for iOS platform
+      - `xcodebuild -downloadPlatform iOS` 
+    - accept all agreements
+      - or run in terminal
+        - `sudo sh -c 'xcode-select -s /Applications/Xcode.app/Contents/Developer && xcodebuild -runFirstLaunch'`
+        - `sudo xcodebuild -license`  
+    - sign in at Settings with your Apple ID which in enrolled in Apple Development Program   
 - [ ] GIT
   - run `git` in terminal and follow the automatic installation of `Xcode Command Line Tools`
 - [ ] iTerm2
@@ -106,4 +114,10 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
     - open another terminal and `flutter doctor` should work
   - run `flutter doctor` and install missing tools
 - [ ] Android Studio
-  -  
+  -  https://developer.android.com/studio
+  -  follow onboarding wizard and install all latest Android SDK tools
+  -  open `Settings -> Android SDK -> SDK Tools` install `Android SDK Command-line Tools (latest)`
+  -  run `flutter doctor --android-licenses`
+    - accept all
+- [ ] CocoaPods
+  - https://guides.cocoapods.org/using/getting-started.html#installation 
