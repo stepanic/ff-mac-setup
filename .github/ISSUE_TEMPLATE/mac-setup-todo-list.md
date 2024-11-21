@@ -174,3 +174,5 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - https://github.com/stepanic/flutterflow-socket
   - this plugin should be installed/configured for every specific FlutterFlow projects which is cloned from GitHub repository but before using it should be installed
   - run `brew install entr`
+- [ ] Docker
+  - https://www.docker.com/
