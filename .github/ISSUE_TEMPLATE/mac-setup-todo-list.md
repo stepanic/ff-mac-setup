@@ -169,4 +169,8 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
 - [ ] mmhmm - recording app
   - https://www.mmhmm.app/
 - [ ] System Color Picker
-  - https://apps.apple.com/us/app/system-color-picker/id1545870783?mt=12 
+  - https://apps.apple.com/us/app/system-color-picker/id1545870783?mt=12
+- [ ] `flutterflow-socket`
+  - https://github.com/stepanic/flutterflow-socket
+  - this plugin should be installed/configured for every specific FlutterFlow projects which is cloned from GitHub repository but before using it should be installed
+  - run `brew install entr`
