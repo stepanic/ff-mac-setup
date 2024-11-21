@@ -149,6 +149,12 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - add `cursor` CLI command with `Cmd + Shift + P`
 - [ ] Figma
   - https://www.figma.com/downloads/
+- [ ] `nvm` `node` `npm`
+  - https://github.com/nvm-sh/nvm
+  - run `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash`
+  - run `nvm install 22`
+    - check the latest LTS version here
+      - https://nodejs.org/en/download/package-manager
      
 ## Optional
 
