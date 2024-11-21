@@ -137,7 +137,7 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `jenv global 21`
   - run `java -version` to test that `java` is available in terminal
   - note `java` is required to have an ability to run later in FlutterFlow project directory `./android`
-    - `./gradlew signingReport` to get SHA fingerprint of building machine to enable Firebase login with Google in debug Android app
+    - `./gradlew signingReport` to get SHA-1 and SHA-256 fingerprints of building machine to enable Firebase login with Google in debug Android app
 - [ ] CocoaPods
   - https://guides.cocoapods.org/using/getting-started.html#installation
     - install the latest Ruby with Brew
