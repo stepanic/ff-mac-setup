@@ -155,6 +155,10 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `nvm install 22`
     - check the latest LTS version here
       - https://nodejs.org/en/download/package-manager
+  - run `nano ~/.bash_profile`
+  - add in the last two lines
+    - `export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm`
+    - `[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion`
      
 ## Optional
 
