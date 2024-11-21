@@ -126,6 +126,18 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
     - run `nano ~/.bash_profile`
     - add to the last line
       - `export PATH=/Applications/Android\ Studio.app/Contents/MacOS:$PATH`    
+- [ ] `jenv` `java`
+  - https://www.jenv.be/
+  - run `brew install jenv`
+  - run `echo 'eval "$(jenv init -)"' >> ~/.bash_profile`
+  - run `eval "$(jenv init -)"`
+  - run `jenv enable-plugin export`
+  - run `exec $SHELL -l`
+  - run `jenv add /Applications/Android\ Studio.app/Contents/jbr/Contents/Home`
+  - run `jenv global 21`
+  - run `java -version` to test that `java` is available in terminal
+  - note `java` is required to have an ability to run later in FlutterFlow project
+    - `./android/gradlew signingReport` to get SHA fingerprint of building machine to enable Firebase login with Google in debug Android app
 - [ ] CocoaPods
   - https://guides.cocoapods.org/using/getting-started.html#installation
     - install the latest Ruby with Brew
@@ -180,3 +192,5 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `brew install entr`
 - [ ] Docker
   - https://www.docker.com/
+ 
+    
