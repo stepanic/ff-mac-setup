@@ -192,5 +192,8 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
   - run `brew install entr`
 - [ ] Docker
   - https://www.docker.com/
+- [ ] BetterTouchTool
+  - https://folivora.ai/
+  - NOTE: Paid software, automate keyboard shortcuts for missing FlutterFlow keyboard shortcuts, i.e. open `Push to GitHub`
  
     
