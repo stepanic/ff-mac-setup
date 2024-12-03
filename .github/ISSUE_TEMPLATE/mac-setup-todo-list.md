@@ -195,5 +195,8 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
 - [ ] BetterTouchTool
   - https://folivora.ai/
   - NOTE: Paid software, automate keyboard shortcuts for missing FlutterFlow keyboard shortcuts, i.e. open `Push to GitHub`
+- [ ] Firefoo
+  - https://www.firefoo.app/
+  - PAID but the most advanced MacOS GUI for Firestore and Firebase Authentication
  
     
