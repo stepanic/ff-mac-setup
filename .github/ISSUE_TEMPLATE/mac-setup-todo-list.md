@@ -198,5 +198,9 @@ How to setup (FRESH from store) Mac (Macbook, Mac mini, etc.) with best practice
 - [ ] Firefoo
   - https://www.firefoo.app/
   - PAID but the most advanced MacOS GUI for Firestore and Firebase Authentication
+- [ ] Google Cloud CLI
+  - https://cloud.google.com/sdk/docs/install
+- [ ] Pulumi CLI
+  - https://www.pulumi.com/docs/iac/get-started/gcp/begin/
  
     
